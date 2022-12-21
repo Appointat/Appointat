@@ -23,4 +23,4 @@ Thank you for visiting my GitHub profile. I hope you find my projects interestin
 <img src="https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3" /> 
 <img src="https://img.shields.io/badge/-JavaScript-oringe?style=flat-square&logo=javascript" /> </span>
 
-<div align="center"> <img src="https://activity-graph.herokuapp.com/graph?username=Appointat&theme=tokyonight" /> </div>
+<div align="center"> <img src="https://activity-graph.herokuapp.com/graph?username=Appointat&theme=xcode" /> </div>
