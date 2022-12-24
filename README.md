@@ -2,9 +2,9 @@
 
 ---
 
-Hi there! My name is XXX and I am a software developer with a passion for building innovative and user-friendly applications.
+Hi there! My name is Zikang CHEN and I am a software developer with a passion for building innovative and user-friendly applications.
 
-I have a XXX degree in Computer Science from Sorbonne University and have gained valuable experience through internships at ANSYS and Air Liquide. I am proficient in languages such as C++, Python, and C#/.NET, and have experience working with frameworks such as XXX and XXX.
+I have a Master/Engineer degree in Computer Science from Sorbonne University and have gained valuable experience through internships at ANSYS and Air Liquide. I am proficient in languages such as C++, Python, and C#/.NET, and have experience working with frameworks such as XXX and XXX.
 
 In my free time, I enjoy staying up-to-date with the latest technology trends and expanding my knowledge through online courses and personal projects. I am also an avid XXX and enjoy XXX in my spare time.
 
