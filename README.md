@@ -2,13 +2,13 @@
 
 ---
 
-Hi there! My name is Zikang CHEN and I am a software developer with a passion for building innovative and user-friendly applications.
+Hi, community❤️! My name is Zikang CHEN and I am a software developer with a passion for building innovative and user-friendly applications.
 
-I have a Master/Engineer degree in Computer Science from Sorbonne University and have gained valuable experience through internships at ANSYS and Air Liquide. I am proficient in languages such as C++, Python, and C#/.NET, and have experience working with frameworks such as XXX and XXX. (ML/DL)
+For instance, I am a Computer Science Master/Engineer 💻 at Sorbonne University Alliance and have gained valuable experience in Software Development through internships at ANSYS and Air Liquide. I am proficient in languages such as C++, Python, and C#/.NET, and have experience working with frameworks such as XXX and XXX. (ML/DL)
 
-In my free time, I enjoy staying up-to-date with the latest technology trends and expanding my knowledge through online courses and personal projects. I am also an avid XXX and enjoy XXX in my spare time.
+In my free time, I enjoy staying up-to-date with the latest technology trends, expanding my knowledge through personal projects, and writing some technical blogs.
 
-Thank you for visiting my GitHub profile. I hope you find my projects interesting and look forward to connecting with you in the future.
+Thank you for visiting my GitHub profile. I hope you find my projects interesting👉 and look forward to connecting with you 👌🏻.
 
 - 我要努力把卡打满，坚持每天写代码。
 
