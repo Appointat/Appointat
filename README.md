@@ -4,7 +4,7 @@
 
 Hi, community❤️! My name is Zikang CHEN and I am a software developer with a passion for building innovative and user-friendly applications.
 
-Now I am a Computer Science Master/Engineer 💻 at Sorbonne University Alliance and have gained valuable experience in Software Development through internships at ANSYS and Air Liquide. I am proficient in languages such as C++, Python, and C#/.NET, and have experience working with frameworks such as XXX and XXX. (ML/DL)
+Now I am a Computer Science Master/Engineer 💻 at Sorbonne University Alliance and have gained valuable experience in Software Development through internships at ANSYS and Air Liquide. I am proficient in languages such as C++, Python, C#/.NET, and React/JavaScript, and have experience working with frameworks such as XXX and XXX. (ML/DL)
 
 As for my major/studies, I aim to become an engineer capable of designing the architectures of business information systems. My major offers me a coherent approach to architectures, networks, systems and distributed applications in order to prepare the engineer for the conduct of projects in the field of IT infrastructures. The objective is to master the application architectures and the underlying installations, so as to be able to size, design, deploy, secure and supervise the IT systems of companies that call upon many constantly renewed technologies. 
 
