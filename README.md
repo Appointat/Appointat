@@ -2,13 +2,13 @@
 
 ---
 
-Hi, community❤️! My name is Zikang CHEN and I am a software developer with a passion for building innovative and user-friendly applications.
+Hello, community❤️! My name is Zikang CHEN, and I am a software developer passionate about creating innovative and user-friendly applications.
 
-Now I am a Computer Science Master/Engineer 💻 at Sorbonne University Alliance and have gained valuable experience in Software Development through internships at ANSYS and Air Liquide. I am proficient in languages such as C++, React/JS, Python, and C#/.NET, and have experience working with frameworks such as Tensorflow and Pytorch.
+Currently, I am pursuing a Master's degree in Computer Science/Engineering 💻 at Sorbonne University Alliance. Through internships at ANSYS and Air Liquide, I have gained valuable experience in software development. My proficiencies include languages such as C++, React/JS, Python, and C#/.NET, as well as experience working with frameworks like Tensorflow and Pytorch.
 
-As for my major/studies, I aim to become an engineer capable of designing the architectures of business information systems. My major offers me a coherent approach to architectures, networks, systems and distributed applications in order to prepare the engineer for the conduct of projects in the field of IT infrastructures. The objective is to master the application architectures and the underlying installations, so as to be able to size, design, deploy, secure and supervise the IT systems of companies that call upon many constantly renewed technologies. 
+In my major, I strive to become an engineer skilled in designing business information system architectures. My studies provide a comprehensive approach to architectures, networks, systems, and distributed applications, preparing me to manage projects in the IT infrastructure field. My goal is to master application architectures and their underlying installations, enabling me to size, design, deploy, secure, and supervise IT systems for companies utilizing ever-evolving technologies.
 
-In my free time, I enjoy staying up-to-date with the latest technology trends, expanding my knowledge through personal projects, and writing some technical blogs.
+During my free time, I enjoy keeping up with the latest technology trends, expanding my knowledge through personal projects, and writing technical blogs.
 
 Thank you for visiting my GitHub profile. I hope you find my projects interesting👉 and look forward to connecting with you 👌🏻.
 
