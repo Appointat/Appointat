@@ -2,7 +2,7 @@
 
 ---
 
-Hello, community❤️! My name is Zikang CHEN, and I am a software developer passionate about creating innovative and user-friendly applications.
+Hello, community❤️! I am a software engineer passionate about creating innovative and user-friendly applications.
 
 Currently, I am pursuing a Master's degree in Computer Science/Engineering 💻 at Sorbonne University Alliance. Through internships at ANSYS and Air Liquide, I have gained valuable experience in software development. My proficiencies include languages such as C++, React/JS, Python, and C#/.NET, as well as experience working with frameworks like Tensorflow and Pytorch.
 
