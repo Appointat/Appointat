@@ -2,15 +2,15 @@
 
 ---
 
-Hello, community❤️! I am a software engineer passionate about creating innovative and user-friendly applications.
+Hello, community! ❤️ I'm a passionate software engineer dedicated to creating innovative and user-friendly applications.
 
-Currently, I am pursuing a Master's degree in Computer Science/Engineering 💻 at Sorbonne University Alliance. Through internships at ANSYS and Air Liquide, I have gained valuable experience in software development. My proficiencies include languages such as C++, React/JS, Python, and C#/.NET, as well as experience working with frameworks like Tensorflow and Pytorch.
+Currently, I'm pursuing a Master's degree in Computer Science/Engineering 💻 at Sorbonne University Alliance. Through internships at ANSYS and Air Liquide, I've gained valuable experience in software development. My skills include languages such as C++, React/JS, Python, and C#/.NET, along with experience working with frameworks like TensorFlow and PyTorch.
 
-In my major, I strive to become an engineer skilled in designing business information system architectures. My studies provide a comprehensive approach to architectures, networks, systems, and distributed applications, preparing me to manage projects in the IT infrastructure field. My goal is to master application architectures and their underlying installations, enabling me to size, design, deploy, secure, and supervise IT systems for companies utilizing ever-evolving technologies.
+In my field of study, my goal is to become a proficient engineer in designing business information system architectures. My studies provide a comprehensive approach to architectures, networks, systems, and distributed applications, equipping me to manage projects in the IT infrastructure field. I aim to master application architectures and their underlying installations, enabling me to size, design, deploy, secure, and supervise IT systems for companies using ever-evolving technologies.
 
-During my free time, I enjoy keeping up with the latest technology trends, expanding my knowledge through personal projects, and writing technical blogs.
+During my free time, I enjoy staying up-to-date with the latest technology trends, expanding my knowledge through personal projects, and writing technical blogs.
 
-Thank you for visiting my GitHub profile. I hope you find my projects interesting👉 and look forward to connecting with you 👌🏻.
+Thank you for visiting my GitHub profile. I hope you find my projects interesting 👉 and I'm excited to connect with you 👌🏻.
 
 
 
