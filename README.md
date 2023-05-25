@@ -2,7 +2,7 @@
 
 ---
 
-Hello, community! ❤️ I'm a passionate software engineer dedicated to creating innovative and user-friendly applications.
+Hello, community! ❤️ I'm a passionate software development engineer dedicated to creating innovative and user-friendly applications.
 
 Currently, I'm pursuing a Master's degree in Computer Science/Engineering 💻 at Sorbonne University Alliance (French). Through internships at ANSYS and Air Liquide, I've gained valuable experience in software development. My skills include languages such as C++, React/JS, Python, and C#/.NET, along with experience working with frameworks like TensorFlow and PyTorch.
 
