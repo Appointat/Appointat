@@ -10,7 +10,7 @@ In my field of study, my goal is to become a proficient engineer in designing bu
 
 During my free time, I enjoy staying up-to-date with the latest technology trends, expanding my knowledge through personal projects, and writing technical blogs.
 
-Thank you for visiting my GitHub profile. I hope you find my projects interesting 👉 and I'm excited to connect with you 👌🏻.
+Thank you for visiting my GitHub profile. I hope you find my projects interesting 👉 and I'm excited to connect with you.
 
 
 
