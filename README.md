@@ -12,10 +12,7 @@ During my free time, I enjoy staying up-to-date with the latest technology trend
 
 Thank you for visiting my GitHub profile. I hope you find my projects interesting 👉 and I'm excited to connect with you.
 
-
-
 <div align="center"> <img height="137px" src="https://github-readme-stats.vercel.app/api?username=Appointat&show_icons=true&theme=tokyonight" /> </div>
-
 
 <div align="center"> <img src="https://github-profile-trophy.vercel.app/?username=Appointat" /> </div>
 
