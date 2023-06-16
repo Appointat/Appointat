@@ -6,7 +6,7 @@ Hello, community! ❤️ I'm a passionate software development engineer dedicate
 
 Currently, I'm pursuing a Master's degree in Computer Science/Engineering 💻 at Sorbonne University Alliance (French). Through internships at ANSYS and Air Liquide, I've gained valuable experience in software development. My skills include languages such as C++, React/JS, Python, and C#/.NET, along with experience working with frameworks like TensorFlow and PyTorch.
 
-In my field of study, my goal is to become a proficient engineer in designing business information system architectures. My studies provide a comprehensive approach to architectures, networks, systems, and distributed applications, equipping me to manage projects in the IT infrastructure field. I aim to master application architectures and their underlying installations, enabling me to size, design, deploy, secure, and supervise IT systems for companies using ever-evolving technologies.
+In my study, my goal is to become a proficient engineer in designing business information system architectures. My studies provide a comprehensive approach to architectures, networks, systems, and distributed applications, equipping me to manage projects in the IT infrastructure field. I aim to master application architectures and their underlying installations, enabling me to size, design, deploy, secure, and supervise IT systems for companies using ever-evolving technologies.
 
 During my free time, I enjoy staying up-to-date with the latest technology trends, expanding my knowledge through personal projects, and writing technical blogs.
 
