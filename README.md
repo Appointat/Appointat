@@ -1,18 +1,21 @@
-# **Personal Information**
+# **Professional Snapshot**
 
----
 
-Hello, community! ❤️ I'm a passionate software development engineer dedicated to creating innovative and user-friendly applications.
+Welcome! I'm a forward-thinking software engineer with a strong focus on user-driven application development and innovation with Large Language Models (LLM). Currently, I'm seeking roles that can benefit from my expertise in domain-specific knowledge bases, prompt engineering, and open-source contributions.
 
-As a solo developer leveraging the LLM(Large Language Model) to create innovative products, **I am open to opportunities from any organization looking for my unique skillset**. My current focus lies in developing knowledge bases for specific domains and Prompt engineering, underlining my credentials as a full-stack developer. However, my strong suit truly lies in my mathematical agility and ability to solve practical problems with mathematical models. This was proven when I achieved the Outstanding Winner award in the Mathematical Contest in Modeling (a distinction earned by just 0.2% of participants worldwide) for proposing a resource and power allocation model for American river reservoirs based on auction theory and marginal benefits.
+As a core developer at the CAMEL-AI open-source community, I spearhead the design, development, and maintenance of multi-agent systems and interactive agents. In addition, I serve as a backend engineer for Ocademy’s open-source community, harnessing AWS and DynamoDB to drive our systems. I also independently developed a product akin to New Bing that offers embedded links in responses, demonstrating and detailing how to guide AI learning with resourceful links.
 
-Currently, I'm pursuing a Master's degree in Computer Science/Engineering 💻 at Sorbonne University Alliance (French). Through internships at ANSYS and Air Liquide, I've gained valuable experience in software development. My skills include languages such as C++, React/JS, Python, and C#/.NET, along with experience working with frameworks like TensorFlow and PyTorch.
+My mathematical proficiency is not just academic; it's proven in practice, with recognition as an Outstanding Winner in the Mathematical Contest in Modeling. This underscores my capability in applying theoretical models to real-world challenges.
 
-In my study, my goal is to become a proficient engineer in designing business information system architectures. My studies provide a comprehensive approach to architectures, networks, systems, and distributed applications, equipping me to manage projects in the IT infrastructure field. I aim to master application architectures and their underlying installations, enabling me to size, design, deploy, secure, and supervise IT systems for companies using ever-evolving technologies.
+I'm furthering my skills with a Master's in Computer Science/Engineering at Sorbonne University Alliance. My background includes enriching internships at ANSYS and Air Liquide and a well-rounded technical skill set in C++, React/JS, Python, and C#/.NET, alongside experience with TensorFlow and PyTorch.
 
-During my free time, I enjoy staying up-to-date with the latest technology trends, expanding my knowledge through personal projects, and writing technical blogs.
+My studies are geared towards mastering business information system architectures, with a keen eye on IT infrastructure project management. I'm committed to deepening my knowledge of application architectures to expertly size, design, deploy, secure, and supervise IT systems using cutting-edge technologies.
 
-Thank you for visiting my GitHub profile. I hope you find my projects interesting 👉 and I'm excited to connect with you.
+Outside of my professional endeavors, I enjoy keeping up with the latest technological advancements, delving into personal projects, and sharing insights through my technical blogging.
+
+Discover more about my contributions on my GitHub. I'm eager to connect and explore how we can drive innovation together.
+
+**Open for Opportunities: I welcome discussions on roles where my unique blend of skills and open-source experience can add value.**
 
 <div align="center"> <img height="137px" src="https://github-readme-stats.vercel.app/api?username=Appointat&show_icons=true&theme=tokyonight" /> </div>
 
