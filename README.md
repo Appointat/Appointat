@@ -5,7 +5,7 @@ Welcome! I'm a forward-thinking software engineer with a strong focus on user-dr
 
 As a core developer at the CAMEL-AI open-source community, I spearhead the design, development, and maintenance of multi-agent systems and interactive agents. In addition, I serve as a backend engineer for Ocademy’s open-source community, harnessing AWS and DynamoDB to drive our systems. I also independently developed a product akin to New Bing that offers embedded links in responses, demonstrating and detailing how to guide AI learning with resourceful links.
 
-My mathematical proficiency is not just academic; it's proven in practice, with recognition as an Outstanding Winner in the Mathematical Contest in Modeling. This underscores my capability in applying theoretical models to real-world challenges.
+My mathematical proficiency is not just academic; it's proven in practice, with recognition as an Outstanding Winner in the [Mathematical Contest in Modeling](https://www.comap.com/contests/mcm-icm). This underscores my capability in applying theoretical models to real-world challenges.
 
 I'm furthering my skills with a Master's in Computer Science/Engineering at Sorbonne University Alliance. My background includes enriching internships at ANSYS and Air Liquide and a well-rounded technical skill set in C++, React/JS, Python, and C#/.NET, alongside experience with TensorFlow and PyTorch.
 
