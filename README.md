@@ -7,7 +7,7 @@ As a core developer at the CAMEL-AI open-source community, I spearhead the desig
 
 My mathematical proficiency is not just academic; it's proven in practice, with recognition as an Outstanding Winner in the [Mathematical Contest in Modeling](https://www.comap.com/contests/mcm-icm). This underscores my capability in applying theoretical models to real-world challenges.
 
-I'm furthering my skills with a Master's in Computer Science/Engineering at Sorbonne University Alliance. My background includes enriching internships at ANSYS and Air Liquide and a well-rounded technical skill set in C++, React/JS, Python, and C#/.NET, alongside experience with TensorFlow and PyTorch.
+I'm furthering my skills with a Master's in Computer Science/Engineering in Europe. My background includes enriching internships at ANSYS and Air Liquide and a well-rounded technical skill set in C++, React/JS, Python, and C#/.NET, alongside experience with TensorFlow and PyTorch.
 
 My studies are geared towards mastering business information system architectures, with a keen eye on IT infrastructure project management. I'm committed to deepening my knowledge of application architectures to expertly size, design, deploy, secure, and supervise IT systems using cutting-edge technologies.
 
