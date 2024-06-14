@@ -9,7 +9,14 @@ My mathematical proficiency is not just academic; it's proven in practice, with 
 
 I'm furthering my skills with a Master's in Computer Science/Engineering in Europe. My background includes enriching internships at ANSYS and Air Liquide and a well-rounded technical skill set in C++, React/JS, Python, and C#/.NET, alongside experience with TensorFlow and PyTorch.
 
-My studies are geared towards mastering business information system architectures, with a keen eye on IT infrastructure project management. I'm committed to deepening my knowledge of application architectures to expertly size, design, deploy, secure, and supervise IT systems using cutting-edge technologies.
+LLM excites me, so what I'm doing or will do (perhaps as a hobby):
+
+1. Enhancing LLM's reasoning abilities, including planning under complex information and solving math problems.
+2. Generating and synthesizing data
+3. Improving workflow agility for agents [(open sourced)](https://github.com/camel-ai/multi-agent-streamlit-ui/blob/feature/multi-agent/design_docs/concept_of_multi_agent_system.md)
+4. Developing a new RAG system with stronger learning capabilities
+5. Creating guided agents
+6. What is the next
 
 Outside of my professional endeavors, I enjoy keeping up with the latest technological advancements, delving into personal projects, and sharing insights through my technical blogging.
 
