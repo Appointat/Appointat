@@ -3,7 +3,7 @@
 
 Welcome! I'm a forward-thinking software engineer with a strong focus on user-driven application development and innovation with Large Language Models (LLM). Currently, I'm seeking roles that can benefit from my expertise in domain-specific knowledge bases, prompt engineering, and open-source contributions.
 
-As a core maintainer and contributor at the CAMEL-AI open-source community, I spearhead the design, development, and maintenance of multi-agent systems and interactive agents. In addition, I serve as a backend engineer for Ocademy’s open-source community, harnessing AWS and DynamoDB to drive our systems. I also independently developed a product akin to New Bing that offers embedded links in responses, demonstrating and detailing how to guide AI learning with resourceful links.
+As a core maintainer and contributor at the CAMEL-AI (10 k stars) open-source community, I spearhead the design, development, and maintenance of multi-agent systems and interactive agents. I am also a core contributor of DB-GPT (14k star), maintaining the Graph RAG module. In addition, I serve as a backend engineer for Ocademy’s open-source community, harnessing AWS and DynamoDB to drive our systems. I also independently developed a product akin to New Bing that offers embedded links in responses, demonstrating and detailing how to guide AI learning with resourceful links.
 
 My mathematical proficiency is not just academic; it's proven in practice, with recognition as an Outstanding Winner in the [Mathematical Contest in Modeling](https://www.comap.com/contests/mcm-icm). This underscores my capability in applying theoretical models to real-world challenges.
 
