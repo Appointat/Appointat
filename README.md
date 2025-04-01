@@ -1,9 +1,9 @@
 # **Professional Snapshot**
 
 
-Welcome! I'm a forward-thinking software engineer with a strong focus on user-driven application development and innovation with Large Language Models (LLM). Currently, I'm seeking roles that can benefit from my expertise in domain-specific knowledge bases, prompt engineering, and open-source contributions.
+Welcome! I'm a forward-thinking software engineer with a strong focus on user-driven application development and innovation with Large Language Models (LLM).
 
-As a core maintainer and contributor at the CAMEL-AI (10 k stars) open-source community, I spearhead the design, development, and maintenance of multi-agent systems and interactive agents. I am also a core contributor of DB-GPT (14k star), maintaining the Graph RAG module. In addition, I serve as a backend engineer for Ocademy’s open-source community, harnessing AWS and DynamoDB to drive our systems. I also independently developed a product akin to New Bing that offers embedded links in responses, demonstrating and detailing how to guide AI learning with resourceful links.
+As a core contributor to DB-GPT (14K+ stars), I maintain and optimize the Graph RAG module, enabling efficient retrieval and application of graph data. I am also an active contributor to the CAMEL-AI (10K+ stars) open-source community, participating in the development of multi-agent systems and interactive agents. Additionally, I maintain Chat2Graph open-source, an innovative multi-agent LLM for graph dialogue that integrates graph operations with natural language to enable intelligent interactive analysis of complex graph data. Previously, I served as a backend engineer for the Ocademy open-source community, leveraging AWS architecture and DynamoDB to optimize system performance. I also independently developed a product similar to New Bing, implementing precise embedded links in responses and detailing how to effectively guide AI learning through resource links.RetryClaude can make mistakes. Please double-check responses.
 
 My mathematical proficiency is not just academic; it's proven in practice, with recognition as an Outstanding Winner in the [Mathematical Contest in Modeling](https://www.comap.com/contests/mcm-icm). This underscores my capability in applying theoretical models to real-world challenges.
 
