@@ -37,8 +37,17 @@ LLM Algorithm Engineer at Ant Group (阿福). I work on memory systems for LLM a
 
 ## Background
 
-- Alliance Sorbonne Université — engineering degree in computer systems, 2025 · Shanghai University — B.Eng. in information engineering, 2024
-- Ant Group AI X-STAR, 2026 · Ant Group Open Source Pioneer Award, 2024 · [MCM/ICM 2022](https://www.contest.comap.com/undergraduate/contests/mcm/contests/2022/results) Outstanding Winner (top 0.16%)
+- Alliance Sorbonne Université — engineering degree in computer systems, 2025
+- Shanghai University — B.Eng. in information engineering, 2024
 - Software engineering intern, Synopsys, 2023
+
+## Awards
+
+- Ant Group AI X-STAR, 2026
+- Ant Group Open Source Pioneer Award, 2024
+- [MCM/ICM 2022](https://www.contest.comap.com/undergraduate/contests/mcm/contests/2022/results) Outstanding Winner (top 0.16%)
+- Qian Weichang Presidential Scholarship — Shanghai University's highest undergraduate honour
+- National Scholarship (国家奖学金)
+- Outstanding Graduate of Shanghai, 2024
 
 📫 appointat@gmail.com
