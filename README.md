@@ -1,34 +1,44 @@
-# **Professional Snapshot**
+# Appointat
 
+LLM Algorithm Engineer at Ant Group (阿福). I work on memory systems for LLM agents, self-evolving experiment loops, and LLM × graph computing. Before that: core maintainer at [CAMEL-AI](https://github.com/camel-ai/camel), GraphRAG maintainer at [DB-GPT](https://github.com/eosphoros-ai/DB-GPT).
 
-Welcome! I'm a forward-thinking software engineer with a strong focus on user-driven application development and innovation with Large Language Models (LLM).
+## What I think
 
-As a core contributor to DB-GPT (14K+ stars), I maintain and optimize the Graph RAG module, enabling efficient retrieval and application of graph data. I am also an active contributor to the CAMEL-AI (10K+ stars) open-source community, participating in the development of multi-agent systems and interactive agents. Additionally, I maintain Chat2Graph open-source, an innovative multi-agent LLM for graph dialogue that integrates graph operations with natural language to enable intelligent interactive analysis of complex graph data. Previously, I served as a backend engineer for the Ocademy open-source community, leveraging AWS architecture and DynamoDB to optimize system performance. I also independently developed a product similar to New Bing, implementing precise embedded links in responses and detailing how to effectively guide AI learning through resource links.RetryClaude can make mistakes. Please double-check responses.
+**On memory**
 
-My mathematical proficiency is not just academic; it's proven in practice, with recognition as an Outstanding Winner in the [Mathematical Contest in Modeling](https://www.comap.com/contests/mcm-icm). This underscores my capability in applying theoretical models to real-world challenges.
+- Memory is not storage. It is external state a decision can use — the measure is whether the channel from history to the current decision works, not how much history is kept. → [几万字都讲不明白的 Memory 架构与思考](https://mp.weixin.qq.com/s/bl77_Mb85C4AKe8h4__V6Q)
+- Time is a first-class dimension. Bi-temporal, time-sliced recall turns "when was this true" into a hard constraint on retrieval and aggregation, not a metadata field. → same article
+- Parametric vs. non-parametric memory is a question of where the write cost lands: compiled into weights at training time, or paid at commit and retrieve/inject time. The ceiling of the latter is interface bandwidth, retrieval-aggregation error and policy learning. → [参数化 Memory 漫谈](https://mp.weixin.qq.com/s/ZTg1bEd2Vx2h7TakM7060w)
+- Forgetting is something to design, not a bug. Optical compression (DeepSeek-OCR) hints at memory tiers where old context is re-rendered smaller and decays gracefully. → [用 8500 字解析 DeepSeek OCR 与记忆系统](https://mp.weixin.qq.com/s/ki5Tq-kTnzadfTbiqEItOg)
 
-I'm furthering my skills with a Master's in Computer Science/Engineering in Europe. My background includes enriching internships at ANSYS and Air Liquide and a well-rounded technical skill set in C++, React/JS, Python, and C#/.NET, alongside experience with TensorFlow and PyTorch.
+**On agents**
 
-LLM excites me, so what I'm doing or will do (perhaps as a hobby):
+- Fast and slow thinking as two models: a Thinker that plans and a cheaper Actor that executes tool calls — built in 2024, before "thinking" models existed. → [Chat2Graph · Reasoner](https://github.com/TuGraph-family/chat2graph/blob/master/doc/en-us/principle/reasoner.md)
+- One active, many passive: a single Leader decomposes work into a sub-job DAG for many Experts, with recursion and error re-injection instead of a flat group chat. → [Chat2Graph · Leader](https://github.com/TuGraph-family/chat2graph/blob/master/doc/en-us/principle/leader.md)
+- "Less structure": agent workflows should be searched and optimised — MCTS over declarative configs, context engineered per layer — not hand-written as SOPs. → [Chat2Graph · Workflow generation](https://github.com/TuGraph-family/chat2graph/blob/master/doc/en-us/principle/workflow_generator.md), the [OSPP 2025 project](https://summer.ospp.ac.cn/2025/org/prodetail/257280066) I mentored
+- Research is itself an agent loop: falsifiable hypotheses → experiments → judge + verifier → attribution. Failed experiments are memory too — replay for the next hypothesis.
 
-1. Enhancing LLM's reasoning abilities, including planning under complex information and solving math problems.
-2. Generating and synthesizing data
-3. Improving workflow agility for agents [(open sourced)](https://github.com/camel-ai/multi-agent-streamlit-ui/blob/feature/multi-agent/design_docs/concept_of_multi_agent_system.md)
-4. Developing a new RAG system with stronger learning capabilities
-5. Creating guided agents
-6. What is the next
+## Open source
 
-Outside of my professional endeavors, I enjoy keeping up with the latest technological advancements, delving into personal projects, and sharing insights through my technical blogging.
+| Project | Role |
+| --- | --- |
+| [Chat2Graph](https://github.com/TuGraph-family/chat2graph) — graph-native agentic system | Lead contributor (#1 by commits and lines); OSPP 2025 mentor |
+| [Apache GeaFlow (incubating)](https://github.com/apache/geaflow) — streaming graph engine | Contributor — [CASTS](https://github.com/apache/geaflow/pull/737), an LLM reasoning operator |
+| [DB-GPT](https://github.com/eosphoros-ai/DB-GPT) — agentic AI data assistant | GraphRAG module maintainer, 2024 |
+| [CAMEL-AI](https://github.com/camel-ai/camel) — multi-agent framework | Core maintainer, 2023–2024; led the [Mixture-of-Agents design](https://github.com/camel-ai/multi-agent-streamlit-ui/blob/feature/multi-agent/design_docs/concept_of_multi_agent_system.md) |
+| [LeAgent](https://github.com/Appointat/LeAgent) | Author — an early (2023) RAG chatbot that cites its sources inline |
 
-Discover more about my contributions on my GitHub. I'm eager to connect and explore how we can drive innovation together.
+## Blog
 
-**Open for Opportunities: I welcome discussions on roles where my unique blend of skills and open-source experience can add value.**
+- [几万字都讲不明白的 Memory 架构与思考](https://mp.weixin.qq.com/s/bl77_Mb85C4AKe8h4__V6Q) — memory as ledger → views → policy, and time as a hard constraint. Also on [AntData](https://mp.weixin.qq.com/s/iwhtcselOV6ui8PBbUPvEA) and [OceanBase](https://mp.weixin.qq.com/s/b_0KOiRzzrEb4hul-T7MKQ).
+- [参数化 Memory 漫谈](https://mp.weixin.qq.com/s/ZTg1bEd2Vx2h7TakM7060w) — parametric vs. non-parametric memory (on 阿里技术).
+- [用 8500 字解析 DeepSeek OCR 与记忆系统](https://mp.weixin.qq.com/s/ki5Tq-kTnzadfTbiqEItOg) — optical compression as a memory tier (on OceanBase).
+- Chat2Graph design docs: [overview](https://github.com/TuGraph-family/chat2graph/blob/master/doc/en-us/principle/overview.md) · [memory — DIKW layers](https://github.com/TuGraph-family/chat2graph/blob/master/doc/en-us/principle/memory.md) · [reasoner](https://github.com/TuGraph-family/chat2graph/blob/master/doc/en-us/principle/reasoner.md) · [workflow generation](https://github.com/TuGraph-family/chat2graph/blob/master/doc/en-us/principle/workflow_generator.md)
 
-<div align="center"> <img height="137px" src="https://github-readme-stats.vercel.app/api?username=Appointat&show_icons=true&theme=tokyonight" /> </div>
+## Background
 
-<div align="center"> <img src="https://github-profile-trophy.vercel.app/?username=Appointat" /> </div>
+- Alliance Sorbonne Université — engineering degree in computer systems, 2025 · Shanghai University — B.Eng. in information engineering, 2024
+- Ant Group AI X-STAR, 2026 · Ant Group Open Source Pioneer Award, 2024 · [MCM/ICM 2022](https://www.contest.comap.com/undergraduate/contests/mcm/contests/2022/results) Outstanding Winner (top 0.16%)
+- Software engineering intern, Synopsys, 2023
 
-<span> 
-<img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" /> 
-<img src="https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3" /> 
-<img src="https://img.shields.io/badge/-JavaScript-oringe?style=flat-square&logo=javascript" /> </span>
+📫 appointat@gmail.com
