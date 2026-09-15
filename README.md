@@ -46,8 +46,8 @@ LLM Algorithm Engineer at Ant Group (阿福). I work on memory systems for LLM a
 - Ant Group AI X-STAR, 2026
 - Ant Group Open Source Pioneer Award, 2024
 - [MCM/ICM 2022](https://www.contest.comap.com/undergraduate/contests/mcm/contests/2022/results) Outstanding Winner (top 0.16%)
-- Qian Weichang Presidential Scholarship — Shanghai University's highest undergraduate honour
-- National Scholarship (国家奖学金)
+- Qian Weichang Presidential Scholarship — Shanghai University's highest undergraduate honour, 2022
+- National Scholarship (国家奖学金), 2022
 - Outstanding Graduate of Shanghai, 2024
 
 📫 appointat@gmail.com
