@@ -37,8 +37,6 @@
 
 ## 背景
 
-- 索邦大学联盟（Alliance Sorbonne Université），计算机系统工程，工程师文凭，2025
-- 上海大学，信息工程，本科，2024
 - Synopsys 软件工程实习，2023
 
 ## 奖项
@@ -46,7 +44,7 @@
 - 蚂蚁集团 AI X-STAR，2026
 - 蚂蚁集团开源先锋奖，2024
 - [美国大学生数学建模竞赛（MCM/ICM）2022](https://www.contest.comap.com/undergraduate/contests/mcm/contests/2022/results) 特等奖 Outstanding Winner（前 0.16%）
-- 钱伟长·校长奖学金——上海大学本科最高荣誉，2022
+- 校长奖学金——上海大学本科最高荣誉，2022
 - 国家奖学金，2022
 - 上海市优秀毕业生，2024
 
