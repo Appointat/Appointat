@@ -1,6 +1,6 @@
 # Appointat
 
-蚂蚁集团阿福 LLM 算法工程师。做 Agent 的记忆系统、自进化的实验闭环，以及 LLM × 图计算。此前是 [CAMEL-AI](https://github.com/camel-ai/camel) 核心维护者、[DB-GPT](https://github.com/eosphoros-ai/DB-GPT) GraphRAG 模块维护者。
+蚂蚁集团阿福 LLM 算法工程师。做 LLM 记忆系统、RSI（自进化）的探索与实现，以及 LLM × 图计算。此前是 [CAMEL-AI](https://github.com/camel-ai/camel) 核心维护者、[DB-GPT](https://github.com/eosphoros-ai/DB-GPT) GraphRAG 模块维护者。
 
 ## 我的看法
 
