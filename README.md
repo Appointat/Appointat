@@ -1,53 +1,53 @@
 # Appointat
 
-LLM Algorithm Engineer at Ant Group (阿福). I work on memory systems for LLM agents, self-evolving experiment loops, and LLM × graph computing. Before that: core maintainer at [CAMEL-AI](https://github.com/camel-ai/camel), GraphRAG maintainer at [DB-GPT](https://github.com/eosphoros-ai/DB-GPT).
+蚂蚁集团阿福 LLM 算法工程师。做 Agent 的记忆系统、自进化的实验闭环，以及 LLM × 图计算。此前是 [CAMEL-AI](https://github.com/camel-ai/camel) 核心维护者、[DB-GPT](https://github.com/eosphoros-ai/DB-GPT) GraphRAG 模块维护者。
 
-## What I think
+## 我的看法
 
-**On memory**
+**关于记忆**
 
-- Memory is not storage. It is external state a decision can use — the measure is whether the channel from history to the current decision works, not how much history is kept. → [几万字都讲不明白的 Memory 架构与思考](https://mp.weixin.qq.com/s/bl77_Mb85C4AKe8h4__V6Q)
-- Time is a first-class dimension. Bi-temporal, time-sliced recall turns "when was this true" into a hard constraint on retrieval and aggregation, not a metadata field. → same article
-- Parametric vs. non-parametric memory is a question of where the write cost lands: compiled into weights at training time, or paid at commit and retrieve/inject time. The ceiling of the latter is interface bandwidth, retrieval-aggregation error and policy learning. → [参数化 Memory 漫谈](https://mp.weixin.qq.com/s/ZTg1bEd2Vx2h7TakM7060w)
-- Forgetting is something to design, not a bug. Optical compression (DeepSeek-OCR) hints at memory tiers where old context is re-rendered smaller and decays gracefully. → [用 8500 字解析 DeepSeek OCR 与记忆系统](https://mp.weixin.qq.com/s/ki5Tq-kTnzadfTbiqEItOg)
+- Memory 不是存储，而是可被决策利用的外部状态。衡量它的不是存了多少历史，而是历史到当前决策的通道通不通。→ [几万字都讲不明白的 Memory 架构与思考](https://mp.weixin.qq.com/s/bl77_Mb85C4AKe8h4__V6Q)
+- 时间是一等维度。bi-temporal + time-sliced recall 把「何时为真」变成检索与聚合的硬约束，而不是一个元数据字段。→ 同上
+- 参数化与非参数化记忆的分别，在于写入成本落在哪：训练时编进权重，还是在 commit 与 retrieve/inject 时付。后者的上限是接口带宽、检索聚合误差和 Policy 的学习。→ [参数化 Memory 漫谈](https://mp.weixin.qq.com/s/ZTg1bEd2Vx2h7TakM7060w)
+- 遗忘是要设计的特性，不是 bug。光学压缩（DeepSeek-OCR）暗示了一种记忆分层：旧上下文渐进缩小重渲染，体面地衰减。→ [用 8500 字解析 DeepSeek OCR 与记忆系统](https://mp.weixin.qq.com/s/ki5Tq-kTnzadfTbiqEItOg)
 
-**On agents**
+**关于智能体**
 
-- Fast and slow thinking as two models: a Thinker that plans and a cheaper Actor that executes tool calls — built in 2024, before "thinking" models existed. → [Chat2Graph · Reasoner](https://github.com/TuGraph-family/chat2graph/blob/master/doc/en-us/principle/reasoner.md)
-- One active, many passive: a single Leader decomposes work into a sub-job DAG for many Experts, with recursion and error re-injection instead of a flat group chat. → [Chat2Graph · Leader](https://github.com/TuGraph-family/chat2graph/blob/master/doc/en-us/principle/leader.md)
-- "Less structure": agent workflows should be searched and optimised — MCTS over declarative configs, context engineered per layer — not hand-written as SOPs. → [Chat2Graph · Workflow generation](https://github.com/TuGraph-family/chat2graph/blob/master/doc/en-us/principle/workflow_generator.md), the [OSPP 2025 project](https://summer.ospp.ac.cn/2025/org/prodetail/257280066) I mentored
-- Research is itself an agent loop: falsifiable hypotheses → experiments → judge + verifier → attribution. Failed experiments are memory too — replay for the next hypothesis.
+- 快慢思考拆成两个模型：Thinker 负责规划，更便宜的 Actor 负责执行工具调用——2024 年做的，那时还没有 thinking 模型。→ [Chat2Graph · 推理机](https://github.com/TuGraph-family/chat2graph/blob/master/doc/zh-cn/principle/reasoner.md)
+- 单主动多被动：一个 Leader 把任务拆成子任务 DAG 交给多个 Expert，支持递归拆解与错误回注，而不是扁平的群聊。→ [Chat2Graph · Leader](https://github.com/TuGraph-family/chat2graph/blob/master/doc/zh-cn/principle/leader.md)
+- Less structure：工作流应该被搜索和优化出来——在声明式配置上跑 MCTS、逐层做上下文工程——而不是手写 SOP。→ [Chat2Graph · 工作流自动生成](https://github.com/TuGraph-family/chat2graph/blob/master/doc/zh-cn/principle/workflow_generator.md)，我带的 [OSPP 2025 项目](https://summer.ospp.ac.cn/2025/org/prodetail/257280066)
+- 研究本身就是一个 agent loop：可证伪的假设 → 实验 → judge + verifier → 归因。失败的实验也是记忆，是下一轮假设的经验回放。
 
-## Open source
+## 开源
 
-| Project | Role |
+| 项目 | 角色 |
 | --- | --- |
-| [Chat2Graph](https://github.com/TuGraph-family/chat2graph) — graph-native agentic system | Lead contributor (#1 by commits and lines); OSPP 2025 mentor |
-| [Apache GeaFlow (incubating)](https://github.com/apache/geaflow) — streaming graph engine | Contributor — [CASTS](https://github.com/apache/geaflow/pull/737), an LLM reasoning operator |
-| [DB-GPT](https://github.com/eosphoros-ai/DB-GPT) — agentic AI data assistant | GraphRAG module maintainer, 2024 |
-| [CAMEL-AI](https://github.com/camel-ai/camel) — multi-agent framework | Core maintainer, 2023–2024; led the [Mixture-of-Agents design](https://github.com/camel-ai/multi-agent-streamlit-ui/blob/feature/multi-agent/design_docs/concept_of_multi_agent_system.md) |
-| [LeAgent](https://github.com/Appointat/LeAgent) | Author — an early (2023) RAG chatbot that cites its sources inline |
+| [Chat2Graph](https://github.com/TuGraph-family/chat2graph) — 图原生智能体系统 | 第一贡献者（commits 与代码行均第一）；OSPP 2025 导师 |
+| [Apache GeaFlow (incubating)](https://github.com/apache/geaflow) — 流式图计算引擎 | 贡献者——[CASTS](https://github.com/apache/geaflow/pull/737)，一个 LLM 推理算子 |
+| [DB-GPT](https://github.com/eosphoros-ai/DB-GPT) — Agentic AI 数据助手 | GraphRAG 模块维护者，2024 |
+| [CAMEL-AI](https://github.com/camel-ai/camel) — 多智能体框架 | 核心维护者，2023–2024；主导 [Mixture-of-Agents 设计](https://github.com/camel-ai/multi-agent-streamlit-ui/blob/feature/multi-agent/design_docs/concept_of_multi_agent_system.md) |
+| [LeAgent](https://github.com/Appointat/LeAgent) | 作者——2023 年的早期 RAG 聊天机器人，回答里带出处 |
 
-## Blog
+## 博客
 
-- [几万字都讲不明白的 Memory 架构与思考](https://mp.weixin.qq.com/s/bl77_Mb85C4AKe8h4__V6Q) — memory as ledger → views → policy, and time as a hard constraint. Also on [AntData](https://mp.weixin.qq.com/s/iwhtcselOV6ui8PBbUPvEA) and [OceanBase](https://mp.weixin.qq.com/s/b_0KOiRzzrEb4hul-T7MKQ).
-- [参数化 Memory 漫谈](https://mp.weixin.qq.com/s/ZTg1bEd2Vx2h7TakM7060w) — parametric vs. non-parametric memory (on 阿里技术).
-- [用 8500 字解析 DeepSeek OCR 与记忆系统](https://mp.weixin.qq.com/s/ki5Tq-kTnzadfTbiqEItOg) — optical compression as a memory tier (on OceanBase).
-- Chat2Graph design docs: [overview](https://github.com/TuGraph-family/chat2graph/blob/master/doc/en-us/principle/overview.md) · [memory — DIKW layers](https://github.com/TuGraph-family/chat2graph/blob/master/doc/en-us/principle/memory.md) · [reasoner](https://github.com/TuGraph-family/chat2graph/blob/master/doc/en-us/principle/reasoner.md) · [workflow generation](https://github.com/TuGraph-family/chat2graph/blob/master/doc/en-us/principle/workflow_generator.md)
+- [几万字都讲不明白的 Memory 架构与思考](https://mp.weixin.qq.com/s/bl77_Mb85C4AKe8h4__V6Q) —— 记忆 = ledger → views → policy，时间是硬约束。[AntData](https://mp.weixin.qq.com/s/iwhtcselOV6ui8PBbUPvEA)、[OceanBase](https://mp.weixin.qq.com/s/b_0KOiRzzrEb4hul-T7MKQ) 转载。
+- [参数化 Memory 漫谈](https://mp.weixin.qq.com/s/ZTg1bEd2Vx2h7TakM7060w) —— 参数化 vs 非参数化记忆。阿里技术转载。
+- [用 8500 字解析 DeepSeek OCR 与记忆系统](https://mp.weixin.qq.com/s/ki5Tq-kTnzadfTbiqEItOg) —— 光学压缩作为记忆分层。OceanBase 转载。
+- Chat2Graph 设计文档：[概览](https://github.com/TuGraph-family/chat2graph/blob/master/doc/zh-cn/principle/overview.md) · [记忆系统（DIKW 分层）](https://github.com/TuGraph-family/chat2graph/blob/master/doc/zh-cn/principle/memory.md) · [推理机](https://github.com/TuGraph-family/chat2graph/blob/master/doc/zh-cn/principle/reasoner.md) · [工作流自动生成](https://github.com/TuGraph-family/chat2graph/blob/master/doc/zh-cn/principle/workflow_generator.md)
 
-## Background
+## 背景
 
-- Alliance Sorbonne Université — engineering degree in computer systems, 2025
-- Shanghai University — B.Eng. in information engineering, 2024
-- Software engineering intern, Synopsys, 2023
+- 索邦大学联盟（Alliance Sorbonne Université），计算机系统工程，工程师文凭，2025
+- 上海大学，信息工程，本科，2024
+- Synopsys 软件工程实习，2023
 
-## Awards
+## 奖项
 
-- Ant Group AI X-STAR, 2026
-- Ant Group Open Source Pioneer Award, 2024
-- [MCM/ICM 2022](https://www.contest.comap.com/undergraduate/contests/mcm/contests/2022/results) Outstanding Winner (top 0.16%)
-- Qian Weichang Presidential Scholarship — Shanghai University's highest undergraduate honour, 2022
-- National Scholarship (国家奖学金), 2022
-- Outstanding Graduate of Shanghai, 2024
+- 蚂蚁集团 AI X-STAR，2026
+- 蚂蚁集团开源先锋奖，2024
+- [美国大学生数学建模竞赛（MCM/ICM）2022](https://www.contest.comap.com/undergraduate/contests/mcm/contests/2022/results) 特等奖 Outstanding Winner（前 0.16%）
+- 钱伟长·校长奖学金——上海大学本科最高荣誉，2022
+- 国家奖学金，2022
+- 上海市优秀毕业生，2024
 
 📫 appointat@gmail.com
