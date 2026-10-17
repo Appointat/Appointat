@@ -24,6 +24,7 @@
 | --- | --- |
 | [Chat2Graph](https://github.com/TuGraph-family/chat2graph) — 图原生智能体系统 | 第一贡献者（commits 与代码行均第一）；OSPP 2025 导师 |
 | [Apache GeaFlow (incubating)](https://github.com/apache/geaflow) — 流式图计算引擎 | 贡献者——[CASTS](https://github.com/apache/geaflow/pull/737)，一个 LLM 推理算子 |
+| [Magpie](https://github.com/yetone/magpie) — 菜单栏里的多模型智能体网关 | 贡献者——[让发往 ChatGPT 后端的所有请求走 HTTP/1.1](https://github.com/yetone/magpie/commit/abdc4b113dc8bf2e1e9951d5b1ee0a4bfee784e9)，修复 Codex 经本地代理时的 `PROTOCOL_ERROR`（[#1700](https://github.com/yetone/magpie/issues/1700)），随 v0.1.1220 发布 |
 | [DB-GPT](https://github.com/eosphoros-ai/DB-GPT) — Agentic AI 数据助手 | GraphRAG 模块维护者，2024 |
 | [CAMEL-AI](https://github.com/camel-ai/camel) — 多智能体框架 | 核心维护者，2023–2024；主导 [Mixture-of-Agents 设计](https://github.com/camel-ai/multi-agent-streamlit-ui/blob/feature/multi-agent/design_docs/concept_of_multi_agent_system.md) |
 | [LeAgent](https://github.com/Appointat/LeAgent) | 作者——2023 年的早期 RAG 聊天机器人，回答里带出处 |
@@ -37,6 +38,7 @@
 
 ## 背景
 
+- 蚂蚁集团实习，2024–2025
 - Synopsys 软件工程实习，2023
 
 ## 奖项
