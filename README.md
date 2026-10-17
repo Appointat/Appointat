@@ -18,6 +18,11 @@
 - Less structure：工作流应该被搜索和优化出来——在声明式配置上跑 MCTS、逐层做上下文工程——而不是手写 SOP。→ [Chat2Graph · 工作流自动生成](https://github.com/TuGraph-family/chat2graph/blob/master/doc/zh-cn/principle/workflow_generator.md)，我带的 [OSPP 2025 项目](https://summer.ospp.ac.cn/2025/org/prodetail/257280066)
 - 研究本身就是一个 agent loop：可证伪的假设 → 实验 → judge + verifier → 归因。失败的实验也是记忆，是下一轮假设的经验回放。
 
+**关于 RSI**
+
+- 记忆是通往 RSI 的钥匙。
+- 我们正在快速迭代一些内部算法和软件工程，可以通过 commit 热图看出来（最近几周提交了一千多个 commits）。相关技术保密。
+
 ## 开源
 
 | 项目 | 角色 |
